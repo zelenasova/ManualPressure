@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#ebf0f4"
+    tools:context="logic.global.manualpressure.ValveFlowRate">
+
+    <ImageView
+        android:id="@+id/cylinder"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_valve"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="60dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_btn_minus" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="60dp"
+        android:layout_height="91dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_btn_plus" />
+
+    <TextView
+        android:text="2"
+        android:id="@+id/text1"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#45637A"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="85dp" />
+
+    <TextView
+        android:text="6"
+        android:id="@+id/text2"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#00a6d6"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="4"
+        android:id="@+id/text3"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#45637A"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="85dp" />
+
+
+
+
+</RelativeLayout>

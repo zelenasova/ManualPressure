@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="logic.global.manualpressure.CircularSeekBarActivity">
+
+    <logic.global.manualpressure.CircularSeekBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:start_angle="-180"
+        app:end_angle="-90"
+        app:progress="0"
+        app:max="100"
+        app:pointer_alpha_ontouch="100"
+        app:pointer_color="#00a6d5"
+        app:pointer_halo_color="#00a6d5"
+        android:id="@+id/circularSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00CCCCCC"/>
+
+</RelativeLayout>
